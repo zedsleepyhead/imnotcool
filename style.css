@@ -1,0 +1,55 @@
+  html {
+    background: url(assets/sky.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: fuckyou;
+  }
+
+  @font-face {
+    font-family: fuckyou;
+    src: url("./assets/font.ttf")
+  }
+
+  p {
+    color: white;
+    font-size: 20px
+  } 
+
+  footer {
+    background-color: (0, 0, 0, 0.5);
+  }
+
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #00dbdb;
+  }
+
+  .box {
+    align-items:center;
+  }
+
+  span {
+    padding: 10px;
+    padding-top: 30px;
+  }
+
+  .stuffido {
+    font-size: 20px;
+  }
