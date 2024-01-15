@@ -14,7 +14,9 @@
 
   p {
     color: white;
-    font-size: 20px
+    font-size: 20px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
   } 
 
   footer {
@@ -28,6 +30,13 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+  }
+
+  .blog_center {
+    text-align: center;
+    padding-top: 50px;
     font-size: 30px;
     color: white;
   }
